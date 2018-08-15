@@ -1,7 +1,3 @@
-apply plugin: 'java'
+apply plugin: 'application'
  
-jar {
-    manifest {
-        attributes 'Main-Class': 'org.gradle.tests.MainClass'
-    }
-}
+mainClassName='org.gradle.tests.MainClass'
